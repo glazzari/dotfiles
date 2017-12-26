@@ -11,7 +11,7 @@ sudo apt-get install stow
 2. Clone the repository
 
 ```
-git clone https://github.com/guilhermelazzari/dotfiles.git ~/.dotfiles
+git clone https://github.com/glazzari/dotfiles.git ~/.dotfiles
 ```
 
 3. Configure desired packages
