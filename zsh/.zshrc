@@ -4,6 +4,11 @@ if [[ ! -d ~/.zplug ]]; then
    source ~/.zplug/init.zsh && zplug update --self
 fi
 
+# Check if tpm is installed
+if [[ ! -d ~/.tmux/plugins/tpm ]]; then
+   git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+fi
+
 source ~/.zplug/init.zsh
 
 zstyle ":zplug:tag" depth 1
