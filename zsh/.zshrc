@@ -18,6 +18,7 @@ zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 
 # Plugins
 zplug "modules/prompt", from:prezto
+zplug "modules/history", from:prezto
 zplug "plugins/git", from:oh-my-zsh
 zplug "plugins/docker", from:oh-my-zsh
 zplug "plugins/docker-compose", from:oh-my-zsh
