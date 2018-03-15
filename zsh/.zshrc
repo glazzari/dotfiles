@@ -12,6 +12,7 @@ fi
 source ~/.zplug/init.zsh
 
 zstyle ":zplug:tag" depth 1
+zstyle ":completion:*" menu select
 
 # Let zplug manage zplug
 zplug 'zplug/zplug', hook-build:'zplug --self-manage'
