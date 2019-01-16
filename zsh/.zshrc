@@ -62,4 +62,5 @@ ZSH_HIGHLIGHT_STYLES[path]=underline=none
 # Load aliases
 if [ -f ~/.zsh_aliases ] ; then source ~/.zsh_aliases; fi
 
-if [ $TILIX_ID ] || [ $VTE_VERSION ] ; then source /etc/profile.d/vte.sh; fi # Ubuntu Budgie END
+# Load functions
+if [ -f ~/.zsh_functions ] ; then source ~/.zsh_functions; fi
